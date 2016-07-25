@@ -14,7 +14,8 @@ A clean and responsive interface for Zend OPcache information, showing statistic
 
 There are two ways to getting started using this gui.
 
-1. Simply to copy/paste or download the `/dist/index.php` to your server.
+# Direct Install 
+Simply copy/paste or download the `/dist/index.php` script to your server.
 If you want to set the configuration options just alter the array at the top of `/dist/index.php`:
 ```php
 $options = [
@@ -30,7 +31,8 @@ $options = [
 ];
 ```
 
-2. Install via composer by editing your `composer.json` file
+# Install via composer 
+by editing your `composer.json` file
 ```
 "repositories": [
     {
@@ -42,6 +44,8 @@ $options = [
     "fyrye/opcache-gui": "^2.0"
 }
 ```
+
+Run the following command to update your library files `php composer.phar update fyrye/opcache-gui`
 
 Then use the following code to display the GUI.
 ```php
@@ -58,7 +62,6 @@ $options = [
     'debounce_rate'    => 250    // milliseconds after key press to send keyup event when filtering
 ];
 echo \fyrye\OpCacheGui\OpCacheTemplate::render($options);
-
 ```
 
 ## Releases
