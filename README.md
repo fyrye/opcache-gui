@@ -10,11 +10,11 @@ A clean and responsive interface for Zend OPcache information, showing statistic
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=acollington&url=https://github.com/amnuts/opcache-gui&title=opcache-gui&language=&tags=github&category=software)
 
-### Getting started
+## Getting started
 
 There are two ways to getting started using this gui.
 
-# Direct Install 
+### Direct Install 
 Simply copy/paste or download the `/dist/index.php` script to your server.
 If you want to set the configuration options just alter the array at the top of `/dist/index.php`:
 ```php
@@ -31,7 +31,7 @@ $options = [
 ];
 ```
 
-# Install via composer 
+### Install via composer 
 by editing your `composer.json` file
 ```
 "repositories": [
