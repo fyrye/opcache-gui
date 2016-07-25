@@ -30,7 +30,20 @@ $options = [
 ];
 ```
 
-2. Install via composer by running the command `composer require fyrye/opcache-gui` then use the following code to display the GUI.
+2. Install via composer by editing your `composer.json` file
+```
+"repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/fyrye/opcache-gui"
+    }
+],
+"require": {
+    "fyrye/opcache-gui": "^2.0"
+}
+```
+
+Then use the following code to display the GUI.
 ```php
 require __DIR__ . '/../vendor/autoload.php';
 $options = [
