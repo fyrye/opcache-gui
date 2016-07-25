@@ -2,7 +2,7 @@
 /**
  * OpCacheTemplate.php Description
  * @author fyrye <fyrye@torntech.com>
- * @version 2016.07.25
+ * @version 2.2.3
  */
 namespace fyrye\OpCacheGui;
 
